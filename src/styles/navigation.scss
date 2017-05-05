@@ -1,0 +1,44 @@
+nav{
+  ul{
+    margin: 0;
+    padding: 0;
+  }
+  li{
+    &:after{
+      height: 2px;
+      width: 0;
+      position: absolute;
+      display: block;
+      content: "";
+      left: 0;
+      bottom: 0;
+      background: #FFCC00;
+      left: 50%;
+      transition: all .2s;
+    }
+    &.active{
+      // background: #d0d0d0!important;
+      &:after{
+        width: 100%;
+        transition: all .2s;
+        left: 0%;
+      }
+      a{
+        color: #F2F4FC!important;
+      }
+    }
+    a:hover{
+      color: #ffffff!important;
+      transition:150ms;
+    }
+  }
+  a{
+    cursor: pointer;
+    display: block;
+    position: relative;
+  }
+  span{
+    text-align: center;
+    width: 100%;
+  }
+}
