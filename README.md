@@ -9,7 +9,7 @@ Internal tool to search, browse, filter, favorite and comment on documents that 
 3. MobX
 4. Webpack
 5. Firebase
-6. Axiom
+6. Axios
 7. Radium
 8. Material Design
 9. ES6/Babel
