@@ -1,9 +1,9 @@
 # LogicMonitor Internal Content portal
 
-##Purpose
+## Purpose
 Internal tool to search, browse, filter, favorite and comment on documents that exist as a custom post type in WordPress
 
-##Technologies
+## Technologies
 1. ReactJS
 2. React Router
 3. MobX
